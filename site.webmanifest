@@ -1,0 +1,63 @@
+{
+  "name": "Wimo Universe",
+  "short_name": "WimoUni",
+  "description": "일상을 편리하게 만드는 웹 서비스 모음",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+        "src":"/android-chrome-192x192.png",
+        "sizes":"192x192",
+        "type":"image/png"
+    },
+    {
+        "src":"/android-chrome-512x512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "WIMO Share",
+      "short_name": "Share",
+      "description": "웹소설 명장면을 이미지로 만들기",
+      "url": "https://share.wimouniv.com/",
+      "icons": [{ "src": "/favicon-32x32.png", "sizes": "32x32" }]
+    },
+    {
+      "name": "OTT 조합 추천기",
+      "short_name": "OTT",
+      "description": "개인 맞춤 OTT 구독 추천",
+      "url": "/ott-recommend",
+      "icons": [{ "src": "/favicon-32x32.png", "sizes": "32x32" }]
+    },
+    {
+      "name": "Wimo Comics",
+      "short_name": "Comics",
+      "description": "창작 웹코믹스 컬렉션",
+      "url": "/comics",
+      "icons": [{ "src": "/favicon-32x32.png", "sizes": "32x32" }]
+    }
+  ]
+}
